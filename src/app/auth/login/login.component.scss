@@ -1,0 +1,12 @@
+:host {
+    height: calc(100vh - 65px);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+}
+
+.container,
+form {
+  display: flex;
+  flex-direction: column;
+}
